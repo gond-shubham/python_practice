@@ -47,3 +47,28 @@ The purpose is to understand how to create search patterns, match text, extract 
 
 ### 6. Lookaheads
 - Positive lookahead `(?=...)`
+- Negative lookahead `(?!...)`
+- Matching patterns based on following characters or conditions
+- Extracting information based on surrounding text
+
+### 7. Common Regex Functions
+- `re.findall()` – Find all matches
+- `re.finditer()` – Iterate through match objects
+- `re.split()` – Split strings using patterns
+- `re.sub()` – Replace matched patterns
+- Understanding the differences between regex functions
+
+### 8. Practical Applications
+- Email validation
+- Phone number extraction
+- Date extraction
+- Price extraction
+- Employee ID matching
+- Text cleaning and whitespace normalisation
+- Extracting named information from text
+
+## Practice Approach
+
+The programs in this folder progress from basic pattern matching to advanced pattern techniques and practical text-processing exercises.
+
+The focus is on understanding regular expression syntax and applying it to common text-processing problems.
